@@ -1,0 +1,165 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style-type:none;
+	box-sizing: border-box;
+}
+
+.navbar.second-navbar {
+	margin-top: 60px;
+	background: grey !important;
+	transition: all .5s ease-in-out;
+  }
+  
+  .navbar.second-navbar.top-nav-collapse {
+	margin-top: 45px;
+  }
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    background: #F5F6F7;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 16px;
+    overflow-x: hidden;
+	width:100%;
+	height:100%;
+	color: #67727A;
+	border: 2px rigid #ECF0F1;
+	min-height:100vh;
+}
+
+
+.imgLogo
+{
+	position: absolute;
+    max-width:75px;
+	max-height: 75px;
+    top:0px;
+	bottom:0px;
+    margin: auto;
+    left: 30px;
+    transition: left linear 0.2s, width linear 0.2s, height linear 0.2s;
+    width: 100%;
+    height: 100%;
+}
+
+.imgLogo:hover
+{
+	left: 25px;
+	width:85px;
+	height:85px;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+table
+{
+	width:100%;
+}
+
+tr
+{
+    line-height:200%;
+  	text-align: right;	
+}
+
+  h2
+{
+	font-size: 250%;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 2%;
+	text-transform: uppercase;
+		
+	
+}
+
+h3
+{
+	font-size: 175%;
+	font-weight: 500;
+	color: #524C56;
+	text-transform: uppercase;
+	padding: 2% 0 2% 0;
+	line-height: 155%;
+	text-align: center;
+		 
+}
+
+
+p{
+
+		display: block;
+		margin-block-start: 1em;
+		margin-block-end: 1em;
+		margin-inline-start: 0px;
+		margin-inline-end: 0px;
+
+}
+
+a
+{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+
+	
+}
+a:hover,a:focus
+{
+	color: #fff;
+	text-decoration: underline;
+}
+
+
+.modal-content{
+    min-height: 550px;
+    max-height: 550px;
+}
+
+#contact-with-us p
+{
+	width:100%;
+	font-size: 100%;
+}
+    
+.second .social i img{
+	height: 3px;
+}
+
+#map {
+	width: 100%;
+	height: 400px;
+	background-color: grey;
+  }
+
+.inner-wrapper{
+	display: block;
+  }
+
+
+@media (min-width: 576px) {  }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
